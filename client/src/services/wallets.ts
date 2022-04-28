@@ -5,6 +5,7 @@ import { Wallet } from '../types/models';
 export default createApi({
   reducerPath: 'wallets',
   baseQuery: fetchBaseQuery({ baseUrl: BACKEND_API_URL }),
+  tagTypes: ['Wallet'],
   endpoints: build => ({
     createWallet: build.mutation<Wallet, Wallet>({
       query: body => ({
@@ -13,13 +14,9 @@ export default createApi({
         body,
       }),
     }),
-    getWallets: build.query<Wallet[], number>({
-      query: (_limit) => ({
+    getWallets: build.query<Wallet[], void>({
+      query: () => ({
         url: 'wallets',
-        params: {
-          _page: 1,
-          _limit
-        }
       }),
     }),
     deleteWallet: build.mutation<Wallet, Wallet>({

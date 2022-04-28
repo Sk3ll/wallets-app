@@ -1,4 +1,6 @@
 export const BACKEND_API_URL = 'http://localhost:8080';
+export const CARD_DATE_FORMAT = 'Do MMMM YYYY';
+export const DEFAULT_DATE_FORMAT = 'YYYY-MM-DD';
 
 export enum Header {
   Title = '🇺🇦 Wallets App',

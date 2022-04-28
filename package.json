@@ -1,0 +1,25 @@
+{
+  "name": "wallets-app",
+  "version": "0.1.0",
+  "author": "Yaroslav Malykhin <sk3llyar@gmail.com>",
+  "scripts": {
+    "start:fe": "cd ./client && yarn start:fe",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sk3ll/wallets-app.git"
+  },
+  "keywords": [
+    "wallets",
+    "financial"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sk3ll/wallets-app/issues"
+  },
+  "homepage": "https://github.com/Sk3ll/wallets-app#readme",
+  "devDependencies": {
+    "husky": "7.0.0"
+  }
+}

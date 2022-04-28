@@ -1,0 +1,26 @@
+# See https://eslint.org/docs/user-guide/configuring#eslintignore for more about ignoring files.
+
+# dependencies
+node_modules/
+storybook-static/
+
+# testing
+coverage/
+reports/
+.scannerwork
+templates/
+
+# production
+build/
+dist/
+generated/
+lib/
+storybook-static/
+
+# misc
+serviceWorker.js
+**/*.css
+*.log
+*.snap
+*.svg
+*.json

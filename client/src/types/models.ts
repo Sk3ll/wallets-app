@@ -14,8 +14,8 @@ export interface Wallet {
   id?: number;
   name: string;
   description: string;
-  created: string | Date;
-  edited?: Date
+  created: string;
+  edited?: string
 }
 
 export interface Asset {

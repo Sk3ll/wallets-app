@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 import { Provider } from 'react-redux';
+import './styles.css';
 import { Router } from './router';
 import reportWebVitals from './reportWebVitals';
 import setupStore from './store';
